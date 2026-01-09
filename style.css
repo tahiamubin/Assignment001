@@ -63,8 +63,13 @@
     padding: 10px 12px;
     color: #30B868;
     gap: 16px;
+    border: none;
 }
-
+.top-btn:hover{
+    color: white;
+    background-color: #30B868;
+    transition: 1s;
+}
 
 #nav-container {
     display: flex;
