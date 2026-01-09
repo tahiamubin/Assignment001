@@ -65,7 +65,8 @@
     gap: 16px;
     border: none;
 }
-.top-btn:hover{
+
+.top-btn:hover {
     color: white;
     background-color: #30B868;
     transition: 1s;
@@ -127,9 +128,10 @@
 }
 
 #notes .notes-container {
-    display: flex;
+    margin: 120px;
 }
-#notes{
+
+#notes {
     margin-left: 120px;
     margin-right: 120px;
 }
@@ -140,7 +142,7 @@
     color: #001931;
     text-align: center;
     padding-bottom: 16px;
-    padding-top: 44px;
+
 
 }
 
@@ -151,8 +153,7 @@
 }
 
 #notes {
-    margin: 0;
-    padding: 0 120px; 
+    margin: auto;
 }
 
 
@@ -160,12 +161,12 @@
     display: flex;
     justify-content: center;
     gap: 24px;
-    padding: 44px 120px 120px 120px; 
+    padding: 44px 120px 120px 120px;
 }
 
 .card-box {
-    height: 300px;
-    width: 322px;
+    height: 250px;
+    width: 280px;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -207,21 +208,25 @@
 .brain-text {
     font-size: 16px;
     color: #30B868;
+    padding-bottom: 16px;
 }
 
 .brain-content h1 {
     font-size: 48px;
     color: #001931;
+    padding-bottom: 16px;
 }
 
 .para {
     font-size: 16px;
     color: #627382;
+    padding-bottom: 16px;
 }
 
 .list li {
     display: flex;
     list-style: none;
+    gap: 16px;
 
 }
 
@@ -233,8 +238,8 @@
 .brain {
     display: flex;
     align-items: center;
-    gap: 60x;
-    padding: 120px;
+    gap: 60px;
+    padding: 0 120px 120px 120px;
 }
 
 
@@ -284,15 +289,19 @@
     color: white;
 }
 
-.last-line {
+.last {
     font-size: 16px;
     color: white;
     padding: 16px;
     text-align: center;
+    gap: 16px;
 }
-.last{
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding-top: 16px;
+
+
+
+.social-logo {
+    background-color: #F7F6F2;
+    border-radius: 15px;
+    padding: 3px;
+
 }
