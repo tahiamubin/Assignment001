@@ -226,6 +226,7 @@
 .list li {
     display: flex;
     list-style: none;
+    padding-bottom: 16px;
     gap: 16px;
 
 }
